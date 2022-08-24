@@ -5,7 +5,7 @@ project(pixels LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-find_package(OpenCV 2 REQUIRED)
+find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_library(pixelLib ./include/pixel_matrix.hpp ./lib/pixel_matrix.cpp  ./include/color_reductions.hpp ./lib/color_reductions.cpp ./include/dithering.hpp ./lib/dithering.cpp)

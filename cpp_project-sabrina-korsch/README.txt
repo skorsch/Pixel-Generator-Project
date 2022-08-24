@@ -13,6 +13,10 @@ To build and install the software, use the commands:
 To run a demonstration, use the commands:
     $INSTALL_DIR/bin/demo
 
+eg. If the $INSTALL_DIR is ../build
+$ cmake -H. -Btmp_cmake -DCMAKE_INSTALL_PREFIX=../build
+$ cmake --build tmp_cmake --clean-first --target install
+$ ../build/bin/demo 
 
 Running the software:
     Once the executable has been built and installed, it requires some user input through command line arguments in the following style:
