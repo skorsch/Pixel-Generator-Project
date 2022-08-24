@@ -1,0 +1,7 @@
+name "Sabrina Korsch"
+student_id "V00847425"
+email "sabrina.korsch@gmail.com"
+term "2022-05"
+course "SENG475"
+section "T01"
+assignment "cpp_project"
